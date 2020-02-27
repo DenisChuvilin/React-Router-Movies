@@ -2,10 +2,10 @@
 
 Topics:
 
-* React Router
-* Using Link and NavLink to navigate to specific routes
-* Passing Route Parameters
-* Passing props to components rendered by the Router
+- React Router
+- Using Link and NavLink to navigate to specific routes
+- Passing Route Parameters
+- Passing props to components rendered by the Router
 
 ## Instructions
 
@@ -19,7 +19,7 @@ Topics:
 - [ ] Still inside the `client` folder run `yarn start` to run the client application.
 
 - [ ] Once your application is up and running on the client, you should see a browser window that looks like this at `localhost:3000`
-  ![Movies Home](https://ibin.co/3xhmmHVl9BKF.png)
+      ![Movies Home](https://ibin.co/3xhmmHVl9BKF.png)
 
 ### Part 1:
 
@@ -31,10 +31,10 @@ Topics:
 ### Part 2:
 
 - [v] Make it so that the card in `MovieList` is a link, this should direct the user to the `/movies/{id of movie here}` URL, where `:id` is the id of the individual movie.
-- [ ] When a user clicks on a movie card they should be taken to `/movies/{id of movie here}` to see the details for the selected movie.
-- [ ] You will need to modify line 13 of `Movie.js` in order to accept the correct id for the movie selected.
-- [ ] Add functionality so the `Home` button on the `SavedList` component navigates back to home.
-- [ ] You should now be able to navigate back and forth between the individual movies and the home screen.
+- [v] When a user clicks on a movie card they should be taken to `/movies/{id of movie here}` to see the details for the selected movie.
+- [v] You will need to modify line 13 of `Movie.js` in order to accept the correct id for the movie selected.
+- [v] Add functionality so the `Home` button on the `SavedList` component navigates back to home.
+- [v] You should now be able to navigate back and forth between the individual movies and the home screen.
 
 ## Stretch Goals.
 
@@ -46,11 +46,12 @@ If you have completed Parts 1 & 2 feel free to move on to these stretch goals.
 
 ### Add `Save Movie` functionality.
 
-- [ ] You will notice there is a 'Saved Movies' component that we are not currently using. In this step you will add the functionality to save a movie. You will need to pass the `addToSavedList` function to the `Movie` component. Once you have done that you will need to add a click handler to the save button. You will need to uncomment lines 24-27 in `Movie.js` to complete this. 
+- [ ] You will notice there is a 'Saved Movies' component that we are not currently using. In this step you will add the functionality to save a movie. You will need to pass the `addToSavedList` function to the `Movie` component. Once you have done that you will need to add a click handler to the save button. You will need to uncomment lines 24-27 in `Movie.js` to complete this.
 
 ### Turn your Saved Movie list into `Link`s.
 
 - [ ] Your list of saved movies should be links to the movie itself. Study and understand what the `saveMovie` function is doing.
 
 ### Turn your Saved Movie `Link`s into `NavLink`s.
+
 - [ ] Navlink
